@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AD Missão Restaurando Vidas | Assembleia de Deus Missão</title>
+  <meta name="description" content="Portal oficial da Assembleia de Deus Missão – Projeto Restaurando Vidas. Encontre a igreja mais perto de você no Brasil e nos Estados Unidos.">
+  <meta property="og:title" content="AD Missão Restaurando Vidas">
+  <meta property="og:description" content="Uma igreja, muitas cidades, um só propósito: restaurar vidas. Encontre a congregação mais perto de você.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0d0d0f">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="topo">
+    <div class="container header__inner">
+      <a href="#inicio" class="brand" aria-label="AD Missão Restaurando Vidas — início">
+        <span class="brand__mark" aria-hidden="true">AD</span>
+        <span class="brand__text">
+          <strong>Missão Restaurando Vidas</strong>
+          <small>Assembleia de Deus Missão</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="menu" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Quem Somos</a>
+        <a href="#igrejas">Igrejas</a>
+        <a href="#ministerios">Ministérios</a>
+        <a href="lideranca.html">Liderança</a>
+        <a href="#igrejas" class="nav__cta">Encontre uma igreja</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ============ HERO ============ -->
+    <!-- Foto de fundo: salve em img/hero.jpg (ver img/LEIA-ME.txt) -->
+    <section class="hero" id="inicio">
+      <div class="hero__bg" aria-hidden="true"><div class="hero__bg-img"></div></div>
+      <canvas class="hero__particles" aria-hidden="true"></canvas>
+
+      <div class="container hero__content">
+        <p class="eyebrow eyebrow--gold" data-anim style="--d:.15s">Assembleia de Deus Missão · Projeto Restaurando Vidas</p>
+
+        <h1>
+          <span class="line"><span style="--d:.3s">Uma igreja, muitas cidades,</span></span>
+          <span class="line"><span style="--d:.45s"><em>restaurando <span class="rotator" data-words="vidas|famílias|gerações|histórias">vidas</span>.</em></span></span>
+        </h1>
+
+        <span class="hero__rule" aria-hidden="true"></span>
+
+        <p class="hero__lead" data-anim style="--d:.85s">
+          Do coração do Brasil à Costa Leste dos Estados Unidos, somos uma só família
+          firmada na Palavra. Onde quer que você esteja, há uma casa esperando por você.
+        </p>
+
+        <div class="hero__actions" data-anim style="--d:1s">
+          <a href="#igrejas" class="btn btn--gold">Encontre uma igreja</a>
+          <a href="lideranca.html" class="btn btn--ghost">Conheça a liderança</a>
+        </div>
+      </div>
+
+      <a href="#sobre" class="hero__scroll" aria-label="Continuar para Quem Somos" data-anim style="--d:1.4s">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ============ QUEM SOMOS ============ -->
+    <section class="section" id="sobre">
+      <div class="container about">
+        <div class="about__text reveal">
+          <p class="eyebrow">Quem somos</p>
+          <h2>Um ministério que nasceu para restaurar</h2>
+          <p>
+            A Assembleia de Deus Missão – Projeto Restaurando Vidas é presidida pelo
+            Pr. José Suimar Caetano Ferreira. O trabalho começou em Palmas (TO), quando havia
+            apenas 11 congregações, e hoje reúne quase 60 na capital.
+          </p>
+          <p>
+            Há mais de 15 anos, o Projeto Restaurando Vidas chegou à Costa Leste Americana,
+            levando o mesmo Evangelho e o mesmo cuidado com pessoas — um legado espiritual
+            e social que continua crescendo.
+          </p>
+          <a href="lideranca.html" class="link-arrow link-arrow--dark">Conheça nossa liderança</a>
+        </div>
+
+        <ul class="stats reveal">
+          <li>
+            <strong><span data-count="60" data-prefix="≈">≈60</span></strong>
+            <span>congregações em Palmas (TO)</span>
+          </li>
+          <li>
+            <strong><span data-count="15" data-suffix="+">15+</span></strong>
+            <span>anos na Costa Leste Americana</span>
+          </li>
+          <li>
+            <strong><span data-count="2">2</span></strong>
+            <span>países: Brasil e Estados Unidos</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ IGREJAS / LOCALIZAÇÕES ============ -->
+    <!-- A lista é gerada a partir do arquivo igrejas.js -->
+    <section class="section section--sand" id="igrejas">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Nossas igrejas</p>
+          <h2>Encontre a AD Missão mais perto de você</h2>
+          <p>Cada congregação tem sua própria agenda. Siga o Instagram da igreja da sua cidade para acompanhar a programação.</p>
+        </div>
+
+        <div class="filters reveal" id="filtros" role="group" aria-label="Filtrar igrejas por país"></div>
+        <div class="churches" id="lista-igrejas" aria-live="polite"></div>
+
+        <noscript><p>Ative o JavaScript para ver a lista de igrejas ou acesse nosso Instagram: @admissaoprv.oficial.</p></noscript>
+      </div>
+    </section>
+
+    <!-- ============ LIDERANÇA (chamada) ============ -->
+    <section class="section section--dark" id="lideranca">
+      <div class="container leader-teaser">
+        <div class="portrait portrait--tall reveal">
+          <span aria-hidden="true">JS</span>
+          <img src="img/pastor-presidente.jpg" alt="Pastor Presidente José Suimar Caetano Ferreira" onerror="this.remove()">
+        </div>
+
+        <div class="leader-teaser__text reveal">
+          <p class="eyebrow eyebrow--gold">Pastor Presidente</p>
+          <h2>Pr. José Suimar Caetano Ferreira</h2>
+          <p>
+            Presidente da Assembleia de Deus Missão – Projeto Restaurando Vidas e fundador
+            do projeto na Costa Leste Americana, onde há mais de 15 anos deixa um enorme
+            legado espiritual e social.
+          </p>
+          <a href="lideranca.html" class="btn btn--gold">Conheça a liderança</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MINISTÉRIOS ============ -->
+    <section class="section" id="ministerios">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Ministérios</p>
+          <h2>Há um lugar para cada geração</h2>
+          <p>Em cada congregação, todos têm espaço para crescer, pertencer e servir.</p>
+        </div>
+
+        <!-- Fotos: img/mulheres.jpg, img/jovens.jpg, img/criancas.jpg -->
+        <div class="ministries">
+          <article class="ministry ministry--mulheres reveal">
+            <div class="ministry__body">
+              <h3>Mulheres</h3>
+              <p>Mulheres unidas em oração, comunhão e serviço, fortalecendo lares e gerações.</p>
+            </div>
+          </article>
+
+          <article class="ministry ministry--jovens reveal">
+            <div class="ministry__body">
+              <h3>Jovens</h3>
+              <p>Uma geração apaixonada por Jesus, vivendo a fé com propósito e ousadia.</p>
+            </div>
+          </article>
+
+          <article class="ministry ministry--criancas reveal">
+            <div class="ministry__body">
+              <h3>Crianças</h3>
+              <p>Ensinando a Palavra com amor e alegria, em um ambiente seguro e acolhedor.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CHAMADA FINAL ============ -->
+    <section class="cta">
+      <div class="container cta__inner reveal">
+        <h2>Sua história pode recomeçar aqui.</h2>
+        <a href="#igrejas" class="btn btn--dark">Encontre uma igreja</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ RODAPÉ ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="#inicio" class="brand brand--footer">
+          <span class="brand__mark" aria-hidden="true">AD</span>
+          <span class="brand__text">
+            <strong>Missão Restaurando Vidas</strong>
+            <small>Assembleia de Deus Missão</small>
+          </span>
+        </a>
+        <p class="footer__verse">
+          “Portanto, ide e fazei discípulos de todas as nações.”
+          <span>Mateus 28:19</span>
+        </p>
+      </div>
+
+      <div>
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Quem Somos</a></li>
+          <li><a href="#igrejas">Igrejas</a></li>
+          <li><a href="#ministerios">Ministérios</a></li>
+          <li><a href="lideranca.html">Liderança</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Sede Brasil</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/admissaoprv.oficial/" target="_blank" rel="noopener">@admissaoprv.oficial</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Sede Estados Unidos</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/admissaoprvusa/" target="_blank" rel="noopener">@admissaoprvusa</a></li>
+          <li>Framingham, Massachusetts</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© <span id="ano">2026</span> Assembleia de Deus Missão – Projeto Restaurando Vidas.</p>
+      <a href="#topo">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <script src="igrejas.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

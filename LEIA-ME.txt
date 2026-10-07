@@ -1,0 +1,18 @@
+FOTOS DO SITE — AD Missão Restaurando Vidas
+============================================
+
+Salve as fotos nesta pasta com EXATAMENTE estes nomes. O site as carrega
+automaticamente; enquanto um arquivo não existir, aparece um fundo escuro/dourado
+(nos retratos, com as iniciais do pastor).
+
+  hero.jpg               Fundo do topo da home (culto/igreja). Horizontal, ~1920x1080.
+  pastor-presidente.jpg  Pr. José Suimar Caetano Ferreira. Vertical, ~900x1125 (4:5).
+  pastor-leandro.jpg     Pastor Leandro (Sede Brasil). Horizontal, ~1000x750 (4:3).
+  pastor-israel.jpg      Vice Pastor Israel Souza (Sede EUA). Horizontal, ~1000x750 (4:3).
+  mulheres.jpg           Ministério de Mulheres. Vertical, ~800x1000.
+  jovens.jpg             Ministério de Jovens.   Vertical, ~800x1000.
+  criancas.jpg           Ministério de Crianças. Vertical, ~800x1000.
+
+Dica: comprima as fotos antes (ex.: squoosh.app) para ficarem abaixo de ~300 KB cada.
+
+Para adicionar ou editar igrejas, abra o arquivo igrejas.js na pasta principal.
